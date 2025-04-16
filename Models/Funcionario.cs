@@ -2,9 +2,18 @@ namespace TrilhaNetAzureDesafio.Models
 {
     public class Funcionario
     {
-        public Funcionario() { }
+        public Funcionario()
+        {
+        }
 
-        public Funcionario(int id, string nome, string endereco, string ramal, string emailProfissional, string departamento, decimal salario, DateTime dataAdmissao)
+        public Funcionario(int id,
+            string nome,
+            string endereco,
+            string ramal,
+            string emailProfissional,
+            string departamento,
+            decimal salario,
+            DateTime dataAdmissao)
         {
             Id = id;
             Nome = nome;

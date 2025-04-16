@@ -8,7 +8,10 @@ namespace TrilhaNetAzureDesafio.Models
     {
         public FuncionarioLog() { }
 
-        public FuncionarioLog(Funcionario funcionario, TipoAcao tipoAcao, string partitionKey, string rowKey)
+        public FuncionarioLog(Funcionario funcionario,
+            TipoAcao tipoAcao,
+            string partitionKey,
+            string rowKey)
         {
             base.Id = funcionario.Id;
             base.Nome = funcionario.Nome;
